@@ -1,0 +1,24 @@
+nav{background-color:rgb(216, 112, 48);
+    overflow: hidden;
+  }
+  nav a{
+    text-decoration:  underline;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    float: left;
+  }
+
+
+nav a:hover{
+  color: rgb(255, 217, 0);
+}
+
+.container{
+    text-align: center;
+    border: 2px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+
+}
