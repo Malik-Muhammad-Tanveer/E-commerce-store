@@ -9,23 +9,28 @@
 <body>
      <!-- Navigation links -->
      <nav>
-        <a href="index.html"><b>Home</b></a> &ensp;|
-        <a href="about.html"><b>About</b></a> &ensp; |
-        <a href="contact.html"><b>Contact</b></a> &ensp;|
-        <a href="login.html"><b>Login & Signup</b></a>
-     </nav>
-     <div class="login">   
-    <h1>Login</h1>
-    <p>You can login or signup here:</p>
-    <!-- Add your login and signup forms here -->
-    <label for="username">Username:</label>
-    <input type="text" id="username" placeholder="Username"><br><br>
-    <label for="password">Password:</label>&ensp;
-    <input type="number" id="password" placeholder="Password"><br><br>
-    <input type="button" value="Login" style="width: 20%;
-    background-color: rgb(79, 98, 52); color: white;
-    margin-bottom: 10px; text-align: center;margin-left: 10%;">
-
-     </div>
+        <a href="signUp.html"><b>SignUp </b></a>
+        <a href="login.html"><b>Login </b></a>
+        <a href="contact.html"><b>Contact</b></a> 
+        <a href="about.html"><b>About</b></a> 
+        <a href="index.html"> <b>Home</b></a>
+        <a href="./index.html"> <img src="./Images/shan-icon.jpeg" alt="" width="15%"></a>        
+    </nav> <br>
+    <div class="container">
+        <div class="side-image">
+            <img src="./Images/img3.webp" alt="shan food banner" width="500px" height="300px">
+        </div>
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="#">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="submit" value="Login">
+                <h5>If You do not have an Account then SignUp Here in below</h5>
+                    <a href="./signUp.html">SignUp Here</a>
+            </form>
+        </div>
+        
+    </div>
 </body>
 </html>

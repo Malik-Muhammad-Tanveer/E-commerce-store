@@ -1,12 +1,16 @@
-nav{background-color:rgb(216, 112, 48);
-    overflow: hidden;
+nav{background-color:rgb(22, 9, 0);
+  position: fixed;
+  width: 100%;
+  height: 40px;
+
   }
   nav a{
     text-decoration:  underline;
     color: white;
-    text-align: center;
-    padding: 20px;
-    float: left;
+    /* text-align: center; */
+    padding: 10px;
+    float: right;
+    margin: 0px 0px 0px 55px;
   }
 
 
@@ -14,11 +18,15 @@ nav a:hover{
   color: rgb(255, 217, 0);
 }
 
-.container{
+.p{
+  text-align: justify;
+}
+
+/* .container{
     text-align: center;
     border: 2px solid;
     padding-left: 20px;
     padding-right: 20px;
     
 
-}
+} */

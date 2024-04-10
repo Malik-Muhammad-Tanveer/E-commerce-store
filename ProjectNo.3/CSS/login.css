@@ -1,19 +1,51 @@
-nav{background-color:rgb(216, 112, 48);
-    overflow: hidden;
-  }
-  nav a{
-    text-decoration:  underline;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    float: left;
-  }
+nav{background-color:rgb(22, 9, 0);
+  position: fixed;
+ width: 100%;
+ height: 40px;
+ 
+}
+nav a{
+  text-decoration:  underline;
+  color: white;
+  /* text-align: center; */
+  padding: 10px;
+  float: right;
+  margin: 0px 0px 0px 55px;
+}
 
 
 nav a:hover{
   color: rgb(255, 217, 0);
 }
-.login{
-    text-align: center;
-    background-image: url(/Images/img3.webp);
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid;
+  margin-top: 100px;
+  background-color: #668868;
+}
+.login-form {
+  flex: 1;
+  padding: 20px;
+}
+.side-image {
+  flex: 1;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.login-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.login-form input[type="submit"]:hover {
+  background-color: #45a049;
 }

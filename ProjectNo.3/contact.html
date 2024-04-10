@@ -7,28 +7,30 @@
     <link rel="stylesheet" href="./CSS/contact.css">
 </head>
 <body>
-     <!-- Navigation links -->
-     <nav>
-        <a href="index.html"><b>Home</b></a>&ensp; |
-        <a href="about.html"><b>About</b></a>&ensp; |
-        <a href="contact.html"><b>Contact</b></a>&ensp; |
-        <a href="login.html"><b>Login & Signup</b></a>
-     </nav>
-        <div class="div">
-            <h1>Contact Us:</h1>
-    <p>Please fill out the form below to get in touch with us:</p>
-    <form action="#">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
-        <label for="number">Roll Number:</label>
-        <input type="number" id="number"name="number" required><br><br>
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-        <input type="submit" value="Submit" 
-        style="background-color: rgb(217, 214, 25); border-radius: 10px;">
-    </form>
+ <!-- Navigation links -->
+   <nav>
+    <a href="signUp.html"><b>SignUp </b></a>
+    <a href="login.html"><b>Login </b></a>
+    <a href="contact.html"><b>Contact</b></a> 
+    <a href="about.html"><b>About</b></a> 
+    <a href="index.html"> <b>Home</b></a>
+    <a href="./index.html"> <img src="./Images/shan-icon.jpeg" alt="" width="15%"></a>        
+</nav><br>
+
+<div class="container">
+    <div class="side-image">
+        <img src="./Images/img3.webp" alt="shan food banner" width="500px" height="300px">
+    </div>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+   
 </div>
 </body>
 </html>
